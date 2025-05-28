@@ -5,7 +5,7 @@
 }
 body{
     direction: rtl;
-    font-family: b nazanin;
+    font-family: 'vazir',b nazanin;
 }
 .navbar{
     display:flex;
