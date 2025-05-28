@@ -1,0 +1,383 @@
+<DOCTYPE html>
+	<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width-device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+			rel="stylesheet">
+		<!--added a cdn link by searching font awesome4 cdn and getting this link from https://www.bootstrapcdn.com/fontawesome/ this url*/-->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<title>فروشگاه آقای ذغال</title>
+
+	</head>
+
+	<body>
+
+		<!-- Header -->
+
+		<div class="header">
+			<div class="container">
+				<div class="navbar">
+					<div class="logo">
+						<a href="index.html"><img src="images/logo.png" alt="" style='width: 125px;'">
+					</div>
+					<nav>
+						<ul id="MenuItems">
+							<li><a href="index.html">صفحه اصلی</a></li>
+							<li><a href="products.html">محصولات</a></li>
+							<li><a href="">درباره ما</a></li>
+							<li><a href="">با ما تماس بگیرید</a></li>
+							<li><a href="account.html">حساب کاربری</a></li>
+							</ul>
+							</nav>
+							<a href="cart.html"><img src="images/cart.png" alt="" style="width: 30px;height: 30px;"></a>
+							<img src="images/menu.png" class="menu-icon" onClick="menutoggle()" >
+					</div>
+					<div class="row">
+						<div class="col-2">
+							<h1>آقای ذغال - Mr Coal</h1>
+							<p>موفقیت همیشه به بزرگی نیست. این در مورد سازگاری است. کار مداوم<br>سخت به موفقیت منجر می
+								شود. عظمت خواهد آمد.</p>
+							<a href="products.html" class="btn">اکنون کاوش کنید &#8594;</a>
+						</div>
+						<div class="col-2">
+							<img src="images/header.jpg" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!--  featured categories -->
+
+			<div class="categorise">
+				<div class="small-container">
+					<div class="row">
+						<div class="col-3">
+							<img src="images/coal-1.jpg" alt="">
+						</div>
+						<div class="col-3">
+							<img src="images/coal-2.jpg" alt="">
+						</div>
+						<div class="col-3">
+							<img src="images/coal-3.jpg" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- featured Products -->
+
+			<div class="small-container">
+				<h2 class="title">محصولات ویژه</h2>
+				<div class="row">
+					<div class="col-4">
+						<a href="product-details.html"><img src="images/coal-3.jpg"></a>
+						<a href="product.details.html">
+							<h4>ذغال لیمو</h4>
+						</a>
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-half-o"></i>
+							<i class="fa fa-star-o"></i>
+						</div>
+						<p>500.000 تومان</p>
+					</div>
+					<div class="col-4">
+						<a href="product-details.html"><img src="images/coal-2.jpg"></a>
+						<a href="product.details.html">
+							<h4>ذغال محلی</h4>
+						</a>
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-half-o"></i>
+						</div>
+						<p>1.00.000 تومان</p>
+					</div>
+					<div class="col-4">
+						<a href="product-details.html"><img src="images/coal-1.jpg"></a>
+						<a href="product.details.html">
+							<h4>ذغال بامبو خودسوز</h4>
+						</a>
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-o"></i>
+						</div>
+						<p>450.000 تومان</p>
+					</div>
+					<div class="col-4">
+						<a href="product-details.html"><img src="images/coal-3.jpg"></a>
+						<a href="product.details.html">
+							<h4>ذغال لیمو  شیرین جهرم</h4>
+						</a>
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-o"></i>
+							<i class="fa fa-star-o"></i>
+						</div>
+						<p>500.000 تومان</p>
+					</div>
+				</div>
+
+				<h2 class="title">آخرین محصولات</h2>
+				<div class="row">
+					<div class="col-4">
+						<a href="product-details.html"><img src="images/coal-1.jpg"></a>
+						<a href="product.details.html">
+							<h4>ذغال بامبو اورجینال</h4>
+						</a>
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-half-o"></i>
+							<i class="fa fa-star-o"></i>
+						</div>
+						<p>500.000 تومان</p>
+					</div>
+					<div class="col-4">
+						<a href="product-details.html"><img src="images/coal-2.jpg"></a>
+						<a href="product.details.html">
+							<h4>ذغال محلی</h4>
+						</a>
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-half-o"></i>
+						</div>
+						<p>1.00.000 تومان</p>
+					</div>
+					<div class="col-4">
+						<a href="product-details.html"><img src="images/coal-3.jpg"></a>
+						<a href="product.details.html">
+							<h4>ذغال لیمو جهرم</h4>
+						</a>
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-o"></i>
+						</div>
+						<p>450.000 تومان</p>
+					</div>
+					<div class="col-4">
+						<a href="product-details.html"><img src="images/coal-1.jpg"></a>
+						<a href="product.details.html">
+							<h4>ذغال چینی</h4>
+						</a>
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-o"></i>
+							<i class="fa fa-star-o"></i>
+						</div>
+						<p>500.000 تومان</p>
+					</div>
+					<div class="col-4">
+						<a href="product-details.html"><img src="images/coal-3.jpg"></a>
+						<a href="product.details.html">
+							<h4>ذغال لیمو</h4>
+						</a>
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-o"></i>
+							<i class="fa fa-star-o"></i>
+						</div>
+						<p>500.000 تومان</p>
+					</div>
+					<div class="col-4">
+						<a href="product-details.html"><img src="images/coal-2.jpg"></a>
+						<a href="product.details.html">
+							<h4>ذغال محلی</h4>
+						</a>
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-o"></i>
+							<i class="fa fa-star-o"></i>
+						</div>
+						<p>500.000 تومان</p>
+					</div>
+					<div class="col-4">
+						<a href="product-details.html"><img src="images/coal-1.jpg"></a>
+						<a href="product.details.html">
+							<h4>ذغال قلیانی بامبو (jakson)</h4>
+						</a>
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-o"></i>
+							<i class="fa fa-star-o"></i>
+						</div>
+						<p>500.000 تومان</p>
+					</div>
+					<div class="col-4">
+						<a href="products-details.html"><img src="images/coal-3.jpg"></a>
+						<a href="product.details.html">
+							<h4>ذغال قلیانی لیمو</h4>
+						</a>
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-o"></i>
+							<i class="fa fa-star-o"></i>
+						</div>
+						<p>500.000 تومان</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- offer -->
+
+			<div class="offer">
+				<div class="small-container">
+					<div class="row">
+						<div class="col-2">
+							<img src="images/coal-1.jpg" alt="" class="offer-img">
+						</div>
+						<div class="col-2">
+							<p>محصولات تخفیف دار</p>
+							<h1>ذغال jakson اورجینال موجود است</h1>
+							<small>جدید ترین و با کیفیت ترین ذغال های بازار را از ما بخواید هم کل فروشی و هم عمده</small><br>
+							<a href="products.html" class="btn">اکنون بخرید &#8594;</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Testimonial -->
+
+			<div class="testimonial">
+				<div class="small-container">
+					<div class="row">
+						<div class="col-3">
+							<i class="fa fa-quote-left"></i>
+							<p>به سادگی متن ساختگی صنعت چاپ و حروفچینی است. لورم ایپسوم از دهه 1500 به عنوان متن ساختگی
+								استاندارد صنعت بوده است، زمانی که یک چاپگر ناشناخته یک گالری از نوع را برداشت و آن را به
+								هم زد تا یک کتاب نمونه بسازد.</p>
+							<div class="rating">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star-o"></i>
+							</div>
+							<img src="images/user-1.png" alt="" class="">
+							<h3>شان پرکار</h3>
+						</div>
+						<div class="col-3">
+							<i class="fa fa-quote-left"></i>
+							<p>به سادگی متن ساختگی صنعت چاپ و حروفچینی است. لورم ایپسوم از دهه 1500 به عنوان متن ساختگی
+								استاندارد صنعت بوده است، زمانی که یک چاپگر ناشناخته یک گالری از نوع را برداشت و آن را به
+								هم زد تا یک کتاب نمونه بسازد.</p>
+							<div class="rating">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star-o"></i>
+							</div>
+							<img src="images/user-2.png" alt="" class="">
+							<h3>مایک اسمیت</h3>
+						</div>
+
+						<div class="col-3">
+							<i class="fa fa-quote-left"></i>
+							<p>به سادگی متن ساختگی صنعت چاپ و حروفچینی است. لورم ایپسوم از دهه 1500 به عنوان متن ساختگی
+								استاندارد صنعت بوده است، زمانی که یک چاپگر ناشناخته یک گالری از نوع را برداشت و آن را به
+								هم زد تا یک کتاب نمونه بسازد.</p>
+							<div class="rating">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star-o"></i>
+							</div>
+							<img src="images/user-3.png" alt="" class="">
+							<h3>میبل جو</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- footer -->
+			<div class="footer">
+				<div class="container">
+
+					<div class="row">
+						<div class="footer-col-1">
+							<h3>برنامه ما را دانلود کنید</h3>
+							<p>دانلود اپلیکیشن برای گوشی های اندروید و ios.</p>
+							<div class="app-logo">
+								<img src="images/play-store.png" alt="">
+								<img src="images/app-store.png" alt="">
+							</div>
+						</div>
+						<div class="footer-col-2">
+							<img src="images/logo.png">
+							<p>خدف ما این است که شما بهترین کیفیت را با بهترین قیمت تجربه کنید</p>
+						</div>
+						<div class="footer-col-3">
+							<h3>لینک های مفید</h3>
+							<ul>
+								<li>کوپن</li>
+								<li>پست وبلاگ</li>
+								<li>سیاست بازگشت</li>
+								<li>به Affiliate بپیوندید</li>
+							</ul>
+						</div>
+						<div class="footer-col-4">
+							<h3>ما را دنبال کنید</h3>
+							<ul>
+								<li>فیس بوک</li>
+								<li>توییتر</li>
+								<li>اینستاگرام</li>
+								<li>یوتیوب</li>
+							</ul>
+						</div>
+
+					</div>
+
+					<hr><!--horizontal line-->
+					<p class="copyright">کلیه اطلاعات موجود در این صفحه مطعلق به وبسایت آقای ذغال میباشد</p>
+
+				</div>
+			</div>
+	<script>
+            var menuItems=document.getElementById("MenuItems");
+            
+            MenuItems.style.maxHeight="0px";
+            function menutoggle(){
+                if(MenuItems.style.maxHeight == "0px"){
+                    MenuItems.style.maxHeight="200px";
+                }
+                else{
+                    MenuItems.style.maxHeight="0px";
+                }
+            }
+        </script>
+	</body>
+	</html>
